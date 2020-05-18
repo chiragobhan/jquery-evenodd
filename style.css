@@ -27,7 +27,7 @@ h2 {
 
 .resultContent {
     display: none;
-    background-color: yellow;
+    background-color: rgba(251, 255, 0, 0.6);
     width: 300px;
     border: 1px solid black;
     justify-content: center;
