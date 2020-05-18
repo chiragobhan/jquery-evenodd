@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Even or Odd Using jQuery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <h2>Check if the number is Even or Odd</h2>
+        <table>
+            <tr>
+                <td>Enter a number:</td>
+                <td><input type="number" name="num" id="num" placeholder="Enter a Number" /></td>
+            </tr>
+            <tr class="err">
+                <td style="border: 1px solid red;" colspan="2">
+                    <div>Enter a valid input.</div>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: none;" colspan="2"><input type="button" name="check" id="check" value="Check"></td>
+            </tr>
+        </table>
+
+        <div class="resultContainer">
+            <div style="padding: 10px;" class="resultContent">
+                <p id="oddOrEven"></p>
+                <p id="isPrime"></p>
+            </div>
+        </div>
+
+    </form>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

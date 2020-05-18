@@ -1,0 +1,40 @@
+body {
+    margin-top: 50px;
+}
+
+table {
+    border: 1px solid black;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+tr,
+td {
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.resultContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.resultContent {
+    display: none;
+    background-color: yellow;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.err {
+    color: red;
+    display: none;
+}
